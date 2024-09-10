@@ -1,560 +1,643 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meduza | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="content hero">
+      <div class="content__grid"></div>
+      <div class="hero__logo">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xml:space="preserve"
+          style="
+            shape-rendering: geometricPrecision;
+            text-rendering: geometricPrecision;
+            image-rendering: optimizeQuality;
+            fill-rule: evenodd;
+            clip-rule: evenodd;
+          "
+          viewBox="0 0 710.17 106.525"
+        >
+          <!-- Применение VHS фильтра к первой части логотипа -->
+          <path
+            d="M244.59 104.144V0h47.072c80.084 0 80.331 104.144 0 104.144H244.59zM230.605 38.45v26.483h-89.44V38.45h89.44zm0-38.45v26.483h-62.086V0h62.086zm0 76.9v27.244h-62.086V76.9h62.086zm46.289-.131c11.354 0 42.19 3.419 42.19-24.696 0-28.115-31.068-24.698-42.19-24.698v49.394z"
+            style="fill: #5cddbf; fill-rule: nonzero"
+            class="vhs-effect"
+          />
+          <!-- Применение VHS фильтра ко второй части логотипа -->
+          <path
+            d="M0 104.144V0h29.813l35.081 55.427L98.97 0h29.813l.307 104.144H96.049l-.258-47.506-23.409 38.133H56.401L33.04 58.285v45.859H0zm415.749 2.381c-32.536 0-52.403-17.56-52.403-49.246V0h36.267v56.238c0 14.945 6.91 21.875 17.661 21.875 10.751 0 15.227-8.77 15.227-21.875V0h35.654v57.279c0 31.688-19.866 49.246-52.406 49.246zm62.289-2.381V82.571l49.109-55.345h-47.572V0h94.822v21.573l-49.204 55.345h51.662v27.226h-98.817zm104.411 0L629.475 0h35.653l45.042 104.144h-35.513l-6.189-15.591-49.136 15.591h-36.883zM657.4 60.675l-10.405-26.208-13.786 34.726 24.191-8.518z"
+            style="fill: #e6e6e6; fill-rule: nonzero"
+            class="vhs-effect"
+          />
+        </svg>
+      </div>
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Portfolio</title>
-    <meta name="description" content="Portfolio">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+      <div class="hero__utp">
+        Я створюю
+        <span class="text-rotating"> класний дизайн, круті веб-додатки</span>
+      </div>
+      <div class="hero__contacts">
+        <a href="https://t.me/lips0n" target="_blank" rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path
+              d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394a.759.759 0 0 1-.6.295h-.005l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121L8.32 13.617l-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z"
+            />
+          </svg>
+        </a>
+        <a
+          href="viber://add?number=380633211815"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.5 0 24 24">
+            <path
+              d="M20.19 2.337c-.595-.545-3.005-2.297-8.372-2.32 0 0-6.333-.379-9.418 2.452C.684 4.185.083 6.698.014 9.815s-.146 8.959 5.485 10.547h.005l-.005 2.419s-.037.98.607 1.177c.778.244 1.238-.502 1.983-1.304.408-.441.97-1.087 1.397-1.58a21.822 21.822 0 0 0 7.299-.557l-.15.032c.778-.253 5.18-.816 5.892-6.657.744-6.03-.354-9.834-2.337-11.555zm.652 11.115c-.607 4.875-4.173 5.185-4.829 5.395-1.432.364-3.076.572-4.769.572-.486 0-.968-.017-1.445-.051l.064.004s-2.438 2.939-3.197 3.703c-.248.248-.521.228-.516-.267 0-.323.019-4.018.019-4.018-4.767-1.322-4.491-6.298-4.435-8.897s.544-4.735 1.997-6.169c2.612-2.367 7.989-2.016 7.989-2.016 4.543.019 6.718 1.388 7.224 1.847 1.674 1.435 2.527 4.867 1.898 9.896zm-6.511-3.788v.014a.304.304 0 0 1-.607.015v-.001a1.45 1.45 0 0 0-1.532-1.588h.004a.304.304 0 0 1 .016-.607h.017-.001l.069-.001a2.037 2.037 0 0 1 2.033 2.175v-.006zm.951.531c.047-1.988-1.195-3.544-3.553-3.718a.304.304 0 1 1 .043-.606h-.001.017a4.106 4.106 0 0 1 4.099 4.348l.001-.011a.304.304 0 0 1-.607-.008v-.008zm2.2.629v.002a.304.304 0 0 1-.607.003c-.024-3.822-2.573-5.903-5.662-5.925a.303.303 0 1 1 0-.606c3.459.024 6.239 2.411 6.267 6.525zm-.525 4.598v.009c-.506.891-1.453 1.875-2.428 1.561l-.009-.014a18.04 18.04 0 0 1-4.831-2.679l.041.03a12.352 12.352 0 0 1-1.969-1.963l-.019-.025a15.082 15.082 0 0 1-1.402-2.106l-.04-.079a13.659 13.659 0 0 1-1.193-2.513l-.03-.098c-.314-.975.665-1.922 1.561-2.428h.009a.851.851 0 0 1 1.12.181l.001.002s.581.693.83 1.036c.234.319.549.83.712 1.115a.976.976 0 0 1-.173 1.246l-.001.001-.562.45a.821.821 0 0 0-.248.659v-.003a5.899 5.899 0 0 0 3.91 3.941l.042.011a.825.825 0 0 0 .656-.247l.45-.562a.977.977 0 0 1 1.251-.171l-.004-.002c.813.463 1.516.972 2.157 1.549l-.011-.01a.833.833 0 0 1 .176 1.11l.002-.003z"
+            />
+          </svg>
+        </a>
+        <a
+          href="https://wa.me/380961468083"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3.5 12a8.5 8.5 0 1 1 8.5 8.5 8.455 8.455 0 0 1-4.542-1.314 1 1 0 0 0-.821-.113l-2.88.859 1.085-2.537a1 1 0 0 0-.07-.92A8.456 8.456 0 0 1 3.5 12ZM12 1.5C6.201 1.5 1.5 6.201 1.5 12c0 1.838.473 3.568 1.305 5.073L1.08 21.107a1 1 0 0 0 1.206 1.351l4.5-1.342A10.456 10.456 0 0 0 12 22.5c5.799 0 10.5-4.701 10.5-10.5S17.799 1.5 12 1.5Zm2.293 12.682-1.315.926A9.338 9.338 0 0 1 11 13.585a10.202 10.202 0 0 1-1.624-2.114l.835-.709a1 1 0 0 0 .236-1.232l-1.064-2a1 1 0 0 0-1.54-.283l-.316.275c-.759.662-1.208 1.75-.836 2.852A12.049 12.049 0 0 0 9.586 15c1.813 1.813 3.655 2.527 4.733 2.805.868.223 1.689-.076 2.268-.548l.591-.482a1 1 0 0 0-.12-1.634l-1.678-1a1 1 0 0 0-1.088.041Z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </a>
+      </div>
+      <div class="hero__scroll_down">
+        <a href="#portfolio" class="mouse_wrapper">
+          <span>Мої роботи нижче</span>
+          <span class="mouse">
+            <span class="wheel"></span>
+          </span>
+        </a>
+      </div>
+    </section>
 
-    <!-- STYLESHEETS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all">
-    <link rel="stylesheet" href="css/all.min.css" type="text/css" media="all">
-    <link rel="stylesheet" href="css/simple-line-icons.css" type="text/css" media="all">
-    <link rel="stylesheet" href="css/slick.css" type="text/css" media="all">
-    <link rel="stylesheet" href="css/animate.css" type="text/css" media="all">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" media="all">
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+    <section class="content portfolio" id="portfolio">
+      <div class="content__grid"></div>
+      <div class="portfolio__head">
+        <h2 class="section-title">Останні роботи</h2>
 
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body class="dark">
-
-    <!-- Preloader -->
-    <div id="preloader">
-        <div class="outer">
-            <!-- Google Chrome -->
-            <div class="infinityChrome">
-                <div></div>
-                <div></div>
-                <div></div>
+        <!-- portfolio filter (desktop) -->
+        <ul class="portfolio-filter list-inline">
+          <li class="current list-inline-item" data-filter="*">Всі</li>
+          <li class="list-inline-item" data-filter=".stores">
+            Iнтернет-магазин
+          </li>
+          <li class="list-inline-item" data-filter=".catalog">Каталог</li>
+          <li class="list-inline-item" data-filter=".business-card">
+            Cайт-візитка
+          </li>
+          <li class="list-inline-item" data-filter=".landing">Лендінг</li>
+        </ul>
+      </div>
+      <div class="portfolio__wrapper">
+        <div class="portfolio__item stores">
+          <a href="#small-soh" class="portfolio__content">
+            <div class="portfolio__details">
+              <span class="term">Iнтернет-магазин</span>
+              <h4 class="title">
+                Soh — Iнтернет-магазин <br />
+                зарядних пристроїв і станцій для електромобілів
+              </h4>
+              <span class="more-button"><i class="icon-options"></i></span>
             </div>
-
-            <!-- Safari and others -->
-            <div class="infinity">
-                <div>
-                    <span></span>
-                </div>
-                <div>
-                    <span></span>
-                </div>
-                <div>
-                    <span></span>
-                </div>
+            <img src="images/works/soh-min.png" alt="Portfolio-title" />
+          </a>
+          <div id="small-soh" class="white-popup zoom-anim-dialog mfp-hide">
+            <div class="white-popup-viewer">
+              <img src="images/works/soh.png" alt="Title" />
             </div>
-            <!-- Stuff -->
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="goo-outer">
-                <defs>
-                    <filter id="goo">
-                        <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />
-                        <feColorMatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
-                        <feBlend in="SourceGraphic" in2="goo" />
-                    </filter>
-                </defs>
-            </svg>
+          </div>
         </div>
-    </div>
 
-
-    <!-- main layout -->
-    <main class="content-3">
-
-        <!-- section home -->
-        <section id="home" class="home d-flex align-items-center">
-            <div class="container">
-
-                <!-- intro -->
-                <div class="intro">
-                    <!-- avatar image -->
-                    <img src="images/ava-min.png" alt="Bolby" class="mb-4" />
-                    
-                    <!-- info -->
-                    <h1 class="mb-2 mt-0">Чернов Вадим</h1>
-                    <span>Я створюю <span class="text-rotating"> класний дизайн, круті веб-додатки</span></span>
-
-                    <!-- social icons -->
-                    <ul class="social-icons light list-inline mb-0 mt-4">
-                        <li class="list-inline-item"><a href="https://t.me/lips0n" target="_blank"><i class="fab fa-telegram"></i></a></li>
-                        <li class="list-inline-item"><a href="viber://add?number=380633211815" target="_blank"><i class="fab fa-viber"></i></a></li>
-                        <li class="list-inline-item"><a href="https://wa.me/380961468083" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
-                    </ul>
-                </div>
-
-                <!-- scroll down mouse wheel -->
-                <div class="scroll-down">
-                    <a href="#about" class="mouse-wrapper">
-                        <span>Мої роботи нижче</span>
-                        <span class="mouse">
-                            <span class="wheel"></span>
-                        </span>
-                    </a>
-                </div>
-
-                <!-- parallax layers -->
-                <div class="parallax" data-relative-input="true">
-
-                    <svg width="27" height="29" data-depth="0.3" class="layer p1" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M21.15625.60099c4.37954 3.67487 6.46544 9.40612 5.47254 15.03526-.9929 5.62915-4.91339 10.30141-10.2846 12.25672-5.37122 1.9553-11.3776.89631-15.75715-2.77856l2.05692-2.45134c3.50315 2.93948 8.3087 3.78663 12.60572 2.22284 4.297-1.5638 7.43381-5.30209 8.22768-9.80537.79387-4.50328-.8749-9.08872-4.37803-12.02821L21.15625.60099z"
-                            fill="#FFD15C" fill-rule="evenodd" />
-                    </svg>
-
-                    <svg width="26" height="26" data-depth="0.2" class="layer p2" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M13 3.3541L2.42705 24.5h21.1459L13 3.3541z" stroke="#FF4C60" stroke-width="3"
-                            fill="none" fill-rule="evenodd" />
-                    </svg>
-
-                    <svg width="30" height="25" data-depth="0.3" class="layer p3" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M.1436 8.9282C3.00213 3.97706 8.2841.92763 14.00013.92796c5.71605.00032 10.9981 3.04992 13.85641 8 2.8583 4.95007 2.8584 11.0491-.00014 16.00024l-2.77128-1.6c2.28651-3.96036 2.28631-8.84002.00011-12.8002-2.2862-3.96017-6.5124-6.40017-11.08513-6.4-4.57271.00018-8.79872 2.43984-11.08524 6.4002l-2.77128-1.6z"
-                            fill="#44D7B6" fill-rule="evenodd" />
-                    </svg>
-
-                    <svg width="15" height="23" data-depth="0.6" class="layer p4" xmlns="http://www.w3.org/2000/svg">
-                        <rect transform="rotate(30 9.86603 10.13397)" x="7" width="3" height="25" rx="1.5"
-                            fill="#FFD15C" fill-rule="evenodd" />
-                    </svg>
-
-                    <svg width="15" height="23" data-depth="0.2" class="layer p5" xmlns="http://www.w3.org/2000/svg">
-                        <rect transform="rotate(30 9.86603 10.13397)" x="7" width="3" height="25" rx="1.5"
-                            fill="#6C6CE5" fill-rule="evenodd" />
-                    </svg>
-
-                    <svg width="49" height="17" data-depth="0.5" class="layer p6" xmlns="http://www.w3.org/2000/svg">
-                        <g fill="#FF4C60" fill-rule="evenodd">
-                            <path
-                                d="M.5 16.5c0-5.71709 2.3825-10.99895 6.25-13.8567 3.8675-2.85774 8.6325-2.85774 12.5 0C23.1175 5.50106 25.5 10.78292 25.5 16.5H23c0-4.57303-1.90625-8.79884-5-11.08535-3.09375-2.28652-6.90625-2.28652-10 0C4.90625 7.70116 3 11.92697 3 16.5H.5z" />
-                            <path
-                                d="M23.5 16.5c0-5.71709 2.3825-10.99895 6.25-13.8567 3.8675-2.85774 8.6325-2.85774 12.5 0C46.1175 5.50106 48.5 10.78292 48.5 16.5H46c0-4.57303-1.90625-8.79884-5-11.08535-3.09375-2.28652-6.90625-2.28652-10 0-3.09375 2.28651-5 6.51232-5 11.08535h-2.5z" />
-                        </g>
-                    </svg>
-
-                    <svg width="26" height="26" data-depth="0.4" class="layer p7" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M13 22.6459L2.42705 1.5h21.1459L13 22.6459z" stroke="#FFD15C" stroke-width="3"
-                            fill="none" fill-rule="evenodd" />
-                    </svg>
-
-                    <svg width="19" height="21" data-depth="0.3" class="layer p8" xmlns="http://www.w3.org/2000/svg">
-                        <rect transform="rotate(-40 6.25252 10.12626)" x="7" width="3" height="25" rx="1.5"
-                            fill="#6C6CE5" fill-rule="evenodd" />
-                    </svg>
-
-                    <svg width="30" height="25" data-depth="0.3" data-depth-y="-1.30" class="layer p9"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M29.8564 16.0718c-2.85854 4.95114-8.1405 8.00057-13.85654 8.00024-5.71605-.00032-10.9981-3.04992-13.85641-8-2.8583-4.95007-2.8584-11.0491.00014-16.00024l2.77128 1.6c-2.28651 3.96036-2.28631 8.84002-.00011 12.8002 2.2862 3.96017 6.5124 6.40017 11.08513 6.4 4.57271-.00018 8.79872-2.43984 11.08524-6.4002l2.77128 1.6z"
-                            fill="#6C6CE5" fill-rule="evenodd" />
-                    </svg>
-
-                    <svg width="47" height="29" data-depth="0.2" class="layer p10" xmlns="http://www.w3.org/2000/svg">
-                        <g fill="#44D7B6" fill-rule="evenodd">
-                            <path
-                                d="M46.78878 17.19094c-1.95535 5.3723-6.00068 9.52077-10.61234 10.8834-4.61167 1.36265-9.0893-.26708-11.74616-4.27524-2.65686-4.00817-3.08917-9.78636-1.13381-15.15866l2.34923.85505c-1.56407 4.29724-1.2181 8.92018.90705 12.12693 2.12514 3.20674 5.70772 4.5107 9.39692 3.4202 3.68921-1.0905 6.92581-4.40949 8.48988-8.70673l2.34923.85505z" />
-                            <path
-                                d="M25.17585 9.32448c-1.95535 5.3723-6.00068 9.52077-10.61234 10.8834-4.61167 1.36264-9.0893-.26708-11.74616-4.27525C.16049 11.92447-.27182 6.14628 1.68354.77398l2.34923.85505c-1.56407 4.29724-1.2181 8.92018.90705 12.12692 2.12514 3.20675 5.70772 4.5107 9.39692 3.4202 3.68921-1.0905 6.92581-4.40948 8.48988-8.70672l2.34923.85505z" />
-                        </g>
-                    </svg>
-
-                    <svg width="33" height="20" data-depth="0.5" class="layer p11" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M32.36774.34317c.99276 5.63023-1.09332 11.3614-5.47227 15.03536-4.37895 3.67396-10.3855 4.73307-15.75693 2.77837C5.76711 16.2022 1.84665 11.53014.8539 5.8999l3.15139-.55567c.7941 4.50356 3.93083 8.24147 8.22772 9.8056 4.29688 1.56413 9.10275.71673 12.60554-2.2227C28.34133 9.98771 30.01045 5.4024 29.21635.89884l3.15139-.55567z"
-                            fill="#FFD15C" fill-rule="evenodd" />
-                    </svg>
-
-                </div>
+        <div class="portfolio__item landing">
+          <a href="#small-teleport" class="portfolio__content">
+            <div class="portfolio__details">
+              <span class="term">Лендінг</span>
+              <h4 class="title">
+                Teleport — <br />
+                Комерційна платформа для Telegram
+              </h4>
+              <span class="more-button"><i class="icon-options"></i></span>
             </div>
-
-        </section>
-
-        <!-- section about -->
-      
-
-    
-
-        <!-- section works -->
-        <section id="works">
-
-            <div class="container">
-
-                <!-- section title -->
-                <h2 class="section-title wow fadeInUp">Останні роботи</h2>
-
-                <div class="spacer" data-height="60"></div>
-
-                <!-- portfolio filter (desktop) -->
-                <ul class="portfolio-filter list-inline wow fadeInUp">
-                    <li class="current list-inline-item" data-filter="*">Всі</li>
-                    <li class="list-inline-item" data-filter=".stores">Iнтернет-магазин</li>
-                    <li class="list-inline-item" data-filter=".catalog">Каталог</li>
-                    <li class="list-inline-item" data-filter=".business-card">Cайт-візитка</li>
-                    <li class="list-inline-item" data-filter=".landing">Лендінг</li>
-         
-                </ul>
-
-                <!-- portfolio filter (mobile) -->
-                <div class="pf-filter-wrapper">
-                    <select class="portfolio-filter-mobile">
-                        <option value="*">Всі</option>
-                        <option value=".stores">Iнтернет-магазин</option>
-                        <option value=".catalog">Каталог</option>
-                        <option value=".business-card">Cайт-візитка</option>
-                        <option value=".landing">Лендінг</option>
-                    </select>
-                </div>
-               
-                <!-- portolio wrapper -->
-                <div class="row portfolio-wrapper">
-
-   
-
-                    <!-- portfolio item -->
-                    <div class="col-md-4 col-sm-6 grid-item creative catalog">
-                        <a href="#small-dialog1" class="work-content">
-                            <div class="portfolio-item rounded shadow-dark">
-                                <div class="details">
-                                    <span class="term">Каталог</span>
-                                    <h4 class="title">Neural Net Hub — <br> каталог нейромереж</h4>
-                                    <span class="more-button"><i class="icon-options"></i></span>
-                                </div>
-                                <div class="thumb">
-                                    <img src="images/works/nnh-min.png" alt="Portfolio-title" />
-                                    <div class="mask"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <div id="small-dialog1" class="white-popup zoom-anim-dialog mfp-hide">
-                            <div class="white-popup-viewer">
-                                <img src="images/works/nnh.png" alt="Title" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 grid-item creative landing">
-                        <a href="#small-dialog2" class="work-content">
-                            <div class="portfolio-item rounded shadow-dark">
-                                <div class="details">
-                                    <span class="term">Лендінг</span>
-                                    <h4 class="title">Ukraine Ads Hub — <br> арбитражный Трафик</h4>
-                                    <span class="more-button"><i class="icon-options"></i></span>
-                                </div>
-                                <div class="thumb">
-                                    <img src="images/works/uah-min.png" alt="Portfolio-title" />
-                                    <div class="mask"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <div id="small-dialog2" class="white-popup zoom-anim-dialog mfp-hide">
-                            <div class="white-popup-viewer">
-                                <img src="images/works/uah.png" alt="Title" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 grid-item creative stores">
-                        <a href="#small-dialog3" class="work-content">
-                            <div class="portfolio-item rounded shadow-dark">
-                                <div class="details">
-                                    <span class="term">Iнтернет-магазин</span>
-                                    <h4 class="title">Ideasad — <br>інтернет-магазин саджанців</h4>
-                                    <span class="more-button"><i class="icon-options"></i></span>
-                                </div>
-                                <div class="thumb">
-                                    <img src="images/works/ideasad-min.png" alt="Portfolio-title" />
-                                    <div class="mask"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <div id="small-dialog3" class="white-popup zoom-anim-dialog mfp-hide">
-                            <div class="white-popup-viewer">
-                                <img src="images/works/ideasad.png" alt="Title" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 grid-item creative landing">
-                        <a href="#small-dialog4" class="work-content">
-                            <div class="portfolio-item rounded shadow-dark">
-                                <div class="details">
-                                    <span class="term">Лендінг</span>
-                                    <h4 class="title">RTI — <br> інтеграції роботів до виробничих процесів</h4>
-                                    <span class="more-button"><i class="icon-options"></i></span>
-                                </div>
-                                <div class="thumb">
-                                    <img src="images/works/rti-min.png" alt="Portfolio-title" />
-                                    <div class="mask"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <div id="small-dialog4" class="white-popup zoom-anim-dialog mfp-hide">
-                            <div class="white-popup-viewer">
-                                <img src="images/works/rti.png" alt="Title" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 grid-item creative business-card">
-                        <a href="#small-dialog5" class="work-content">
-                            <div class="portfolio-item rounded shadow-dark">
-                                <div class="details">
-                                    <span class="term">Cайт-візитка</span>
-                                    <h4 class="title">Techtrade — <br>постачання кухонного обладнання</h4>
-                                    <span class="more-button"><i class="icon-options"></i></span>
-                                </div>
-                                <div class="thumb">
-                                    <img src="images/works/tt-min.png" alt="Portfolio-title" />
-                                    <div class="mask"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <div id="small-dialog5" class="white-popup zoom-anim-dialog mfp-hide">
-                            <div class="white-popup-viewer">
-                                <img src="images/works/tt.png" alt="Title" />
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 grid-item creative landing">
-                        <a href="#small-dialog6" class="work-content">
-                            <div class="portfolio-item rounded shadow-dark">
-                                <div class="details">
-                                    <span class="term">Лендінг</span>
-                                    <h4 class="title">CryptoAlianz — <br> курс з стратегій роботи з цифровими активами</h4>
-                                    <span class="more-button"><i class="icon-options"></i></span>
-                                </div>
-                                <div class="thumb">
-                                    <img src="images/works/crypto-alianz-min.png" alt="Portfolio-title" />
-                                    <div class="mask"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <div id="small-dialog6" class="white-popup zoom-anim-dialog mfp-hide">
-                            <div class="white-popup-viewer">
-                                <img src="images/works/crypto-alianz.png" alt="Title" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 grid-item creative stores">
-                        <a href="#small-dialog7" class="work-content">
-                            <div class="portfolio-item rounded shadow-dark">
-                                <div class="details">
-                                    <span class="term">Iнтернет-магазин</span>
-                                    <h4 class="title"> MedScaner — <br>постановник медичного обладнання</h4>
-                                    <span class="more-button"><i class="icon-options"></i></span>
-                                </div>
-                                <div class="thumb">
-                                    <img src="images/works/scaner-min.png" alt="Portfolio-title" />
-                                    <div class="mask"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <div id="small-dialog7" class="white-popup zoom-anim-dialog mfp-hide">
-                            <div class="white-popup-viewer">
-                                <img src="images/works/scaner.png" alt="Title" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 grid-item creative stores">
-                        <a href="#small-dialog8" class="work-content">
-                            <div class="portfolio-item rounded shadow-dark">
-                                <div class="details">
-                                    <span class="term">Iнтернет-магазин</span>
-                                    <h4 class="title">Agrostore — <br>інтернет-магазин саджанців</h4>
-                                    <span class="more-button"><i class="icon-options"></i></span>
-                                </div>
-                                <div class="thumb">
-                                    <img src="images/works/agrostore-min.png" alt="Portfolio-title" />
-                                    <div class="mask"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <div id="small-dialog8" class="white-popup zoom-anim-dialog mfp-hide">
-                            <div class="white-popup-viewer">
-                                <img src="images/works/agrostore.png" alt="Title" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 grid-item creative landing">
-                        <a href="#small-dialog9" class="work-content">
-                            <div class="portfolio-item rounded shadow-dark">
-                                <div class="details">
-                                    <span class="term">Лендінг</span>
-                                    <h4 class="title">Flychange — <br>крипто-обмінник</h4>
-                                    <span class="more-button"><i class="icon-options"></i></span>
-                                </div>
-                                <div class="thumb">
-                                    <img src="images/works/flychange-min.png" alt="Portfolio-title" />
-                                    <div class="mask"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <div id="small-dialog9" class="white-popup zoom-anim-dialog mfp-hide">
-                            <div class="white-popup-viewer">
-                                <img src="images/works/flychange.png" alt="Title" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 grid-item creative catalog">
-                        <a href="#small-dialog10" class="work-content">
-                            <div class="portfolio-item rounded shadow-dark">
-                                <div class="details">
-                                    <span class="term">Каталог</span>
-                                    <h4 class="title">Ywood — <br>виробництво меблів</h4>
-                                    <span class="more-button"><i class="icon-options"></i></span>
-                                </div>
-                                <div class="thumb">
-                                    <img src="images/works/ywood-min.png" alt="Portfolio-title" />
-                                    <div class="mask"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <div id="small-dialog10" class="white-popup zoom-anim-dialog mfp-hide">
-                            <div class="white-popup-viewer">
-                                <img src="images/works/ywood.png" alt="Title" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 grid-item creative business-card">
-                        <a href="#small-dialog11" class="work-content">
-                            <div class="portfolio-item rounded shadow-dark">
-                                <div class="details">
-                                    <span class="term">Cайт-візитка</span>
-                                    <h4 class="title">PRAKTIK-T — <br> стамотологія</h4>
-                                    <span class="more-button"><i class="icon-options"></i></span>
-                                </div>
-                                <div class="thumb">
-                                    <img src="images/works/stomatology-min.png" alt="Portfolio-title" />
-                                    <div class="mask"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <div id="small-dialog11" class="white-popup zoom-anim-dialog mfp-hide">
-                            <div class="white-popup-viewer">
-                                <img src="images/works/stomatology.png" alt="Title" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 grid-item creative business-card">
-                        <a href="#small-dialog12" class="work-content">
-                            <div class="portfolio-item rounded shadow-dark">
-                                <div class="details">
-                                    <span class="term">Cайт-візитка</span>
-                                    <h4 class="title">Point-3d — <br> центри томографії</h4>
-                                    <span class="more-button"><i class="icon-options"></i></span>
-                                </div>
-                                <div class="thumb">
-                                    <img src="images/works/point-3d-min.png" alt="Portfolio-title" />
-                                    <div class="mask"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <div id="small-dialog12" class="white-popup zoom-anim-dialog mfp-hide">
-                            <div class="white-popup-viewer">
-                                <img src="images/works/point-3d.png" alt="Title" />
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-   
-
+            <img src="images/works/teleport-min.png" alt="Portfolio-title" />
+          </a>
+          <div
+            id="small-teleport"
+            class="white-popup zoom-anim-dialog mfp-hide"
+          >
+            <div class="white-popup-viewer">
+              <img src="images/works/teleport.png" alt="Title" />
             </div>
+          </div>
+        </div>
 
-        </section>
+        <div class="portfolio__item catalog">
+          <a href="#small-carsto" class="portfolio__content">
+            <div class="portfolio__details">
+              <span class="term">Лендінг</span>
+              <h4 class="title">
+                Carsto — <br />
+                продаж вживаних автомобілів
+              </h4>
+              <span class="more-button"><i class="icon-options"></i></span>
+            </div>
+            <img src="images/works/carsto-min.png" alt="Portfolio-title" />
+          </a>
+          <div id="small-carsto" class="white-popup zoom-anim-dialog mfp-hide">
+            <div class="white-popup-viewer">
+              <img src="images/works/carsto.png" alt="Title" />
+            </div>
+          </div>
+        </div>
 
-      
+        <div class="portfolio__item catalog">
+          <a href="#small-dialog1" class="portfolio__content">
+            <div class="portfolio__details">
+              <span class="term">Каталог</span>
+              <h4 class="title">
+                Neural Net Hub — <br />
+                каталог нейромереж
+              </h4>
+              <span class="more-button"><i class="icon-options"></i></span>
+            </div>
+            <img src="images/works/nnh-min.png" alt="Portfolio-title" />
+          </a>
+          <div id="small-dialog1" class="white-popup zoom-anim-dialog mfp-hide">
+            <div class="white-popup-viewer">
+              <img src="images/works/nnh.png" alt="Title" />
+            </div>
+          </div>
+        </div>
 
-      
+        <div class="portfolio__item landing">
+          <a href="#small-dialog2" class="portfolio__content">
+            <div class="portfolio__details">
+              <span class="term">Лендінг</span>
+              <h4 class="title">
+                Ukraine Ads Hub — <br />
+                арбитражный Трафик
+              </h4>
+              <span class="more-button"><i class="icon-options"></i></span>
+            </div>
+            <img src="images/works/uah-min.png" alt="Portfolio-title" />
+          </a>
+          <div id="small-dialog2" class="white-popup zoom-anim-dialog mfp-hide">
+            <div class="white-popup-viewer">
+              <img src="images/works/uah.png" alt="Title" />
+            </div>
+          </div>
+        </div>
 
-        <section id="about">
+        <div class="portfolio__item stores">
+          <a href="#small-dialog3" class="portfolio__content">
+            <div class="portfolio__details">
+              <span class="term">Iнтернет-магазин</span>
+              <h4 class="title">
+                Ideasad — <br />
+                інтернет-магазин саджанців
+              </h4>
+              <span class="more-button"><i class="icon-options"></i></span>
+            </div>
+            <img src="images/works/ideasad-min.png" alt="Portfolio-title" />
+          </a>
+          <div id="small-dialog3" class="white-popup zoom-anim-dialog mfp-hide">
+            <div class="white-popup-viewer">
+              <img src="images/works/ideasad.png" alt="Title" />
+            </div>
+          </div>
+        </div>
 
-            <div class="container">
+        <div class="portfolio__item landing">
+          <a href="#small-dialog4" class="portfolio__content">
+            <div class="portfolio__details">
+              <span class="term">Лендінг</span>
+              <h4 class="title">
+                RTI — <br />
+                інтеграції роботів до виробничих процесів
+              </h4>
+              <span class="more-button"><i class="icon-options"></i></span>
+            </div>
+            <img src="images/works/rti-min.png" alt="Portfolio-title" />
+          </a>
+          <div id="small-dialog4" class="white-popup zoom-anim-dialog mfp-hide">
+            <div class="white-popup-viewer">
+              <img src="images/works/rti.png" alt="Title" />
+            </div>
+          </div>
+        </div>
 
+        <div class="portfolio__item business-card">
+          <a href="#small-dialog5" class="portfolio__content">
+            <div class="portfolio__details">
+              <span class="term">Cайт-візитка</span>
+              <h4 class="title">
+                Techtrade — <br />
+                постачання кухонного обладнання
+              </h4>
+              <span class="more-button"><i class="icon-options"></i></span>
+            </div>
+            <img src="images/works/tt-min.png" alt="Portfolio-title" />
+          </a>
+          <div id="small-dialog5" class="white-popup zoom-anim-dialog mfp-hide">
+            <div class="white-popup-viewer">
+              <img src="images/works/tt.png" alt="Title" />
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio__item landing">
+          <a href="#small-dialog6" class="portfolio__content">
+            <div class="portfolio__details">
+              <span class="term">Лендінг</span>
+              <h4 class="title">
+                CryptoAlianz — <br />
+                курс з стратегій роботи з цифровими активами
+              </h4>
+              <span class="more-button"><i class="icon-options"></i></span>
+            </div>
+            <img
+              src="images/works/crypto-alianz-min.png"
+              alt="Portfolio-title"
+            />
+          </a>
+          <div id="small-dialog6" class="white-popup zoom-anim-dialog mfp-hide">
+            <div class="white-popup-viewer">
+              <img src="images/works/crypto-alianz.png" alt="Title" />
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio__item catalog">
+          <a href="#small-dialog7" class="portfolio__content">
+            <div class="portfolio__details">
+              <span class="term">Iнтернет-магазин</span>
+              <h4 class="title">
+                MedScaner — <br />
+                постановник медичного обладнання
+              </h4>
+              <span class="more-button"><i class="icon-options"></i></span>
+            </div>
+            <img src="images/works/scaner-min.png" alt="Portfolio-title" />
+          </a>
+          <div id="small-dialog7" class="white-popup zoom-anim-dialog mfp-hide">
+            <div class="white-popup-viewer">
+              <img src="images/works/scaner.png" alt="Title" />
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio__item stores">
+          <a href="#small-dialog8" class="portfolio__content">
+            <div class="portfolio__details">
+              <span class="term">Iнтернет-магазин</span>
+              <h4 class="title">
+                Agrostore — <br />
+                інтернет-магазин саджанців
+              </h4>
+              <span class="more-button"><i class="icon-options"></i></span>
+            </div>
+            <img src="images/works/agrostore-min.png" alt="Portfolio-title" />
+          </a>
+          <div id="small-dialog8" class="white-popup zoom-anim-dialog mfp-hide">
+            <div class="white-popup-viewer">
+              <img src="images/works/agrostore.png" alt="Title" />
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio__item landing">
+          <a href="#small-dialog9" class="portfolio__content">
+            <div class="portfolio__details">
+              <span class="term">Лендінг</span>
+              <h4 class="title">
+                Flychange — <br />
+                крипто-обмінник
+              </h4>
+              <span class="more-button"><i class="icon-options"></i></span>
+            </div>
+            <img src="images/works/flychange-min.png" alt="Portfolio-title" />
+          </a>
+          <div id="small-dialog9" class="white-popup zoom-anim-dialog mfp-hide">
+            <div class="white-popup-viewer">
+              <img src="images/works/flychange.png" alt="Title" />
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio__item catalog">
+          <a href="#small-dialog10" class="portfolio__content">
+            <div class="portfolio__details">
+              <span class="term">Каталог</span>
+              <h4 class="title">
+                Ywood — <br />
+                виробництво меблів
+              </h4>
+              <span class="more-button"><i class="icon-options"></i></span>
+            </div>
+            <img src="images/works/ywood-min.png" alt="Portfolio-title" />
+          </a>
+          <div
+            id="small-dialog10"
+            class="white-popup zoom-anim-dialog mfp-hide"
+          >
+            <div class="white-popup-viewer">
+              <img src="images/works/ywood.png" alt="Title" />
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio__item business-card">
+          <a href="#small-dialog11" class="portfolio__content">
+            <div class="portfolio__details">
+              <span class="term">Cайт-візитка</span>
+              <h4 class="title">
+                PRAKTIK-T — <br />
+                стамотологія
+              </h4>
+              <span class="more-button"><i class="icon-options"></i></span>
+            </div>
+            <img src="images/works/stomatology-min.png" alt="Portfolio-title" />
+          </a>
+          <div
+            id="small-dialog11"
+            class="white-popup zoom-anim-dialog mfp-hide"
+          >
+            <div class="white-popup-viewer">
+              <img src="images/works/stomatology.png" alt="Title" />
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio__item catalog">
+          <a href="#small-dialog12" class="portfolio__content">
+            <div class="portfolio__details">
+              <span class="term">Cайт-візитка</span>
+              <h4 class="title">
+                Point-3d — <br />
+                центри томографії
+              </h4>
+              <span class="more-button"><i class="icon-options"></i></span>
+            </div>
+            <img src="images/works/point-3d-min.png" alt="Portfolio-title" />
+          </a>
+          <div
+            id="small-dialog12"
+            class="white-popup zoom-anim-dialog mfp-hide"
+          >
+            <div class="white-popup-viewer">
+              <img src="images/works/point-3d.png" alt="Title" />
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio__item business-card">
+          <a href="#small-cyberline" class="portfolio__content">
+            <div class="portfolio__details">
+              <span class="term">Cайт-візитка</span>
+              <h4 class="title">
+                Point-3d — <br />
+                центри томографії
+              </h4>
+              <span class="more-button"><i class="icon-options"></i></span>
+            </div>
+            <img src="images/works/cyberline-min.png" alt="Portfolio-title" />
+          </a>
+          <div
+            id="small-cyberline"
+            class="white-popup zoom-anim-dialog mfp-hide"
+          >
+            <div class="white-popup-viewer">
+              <img src="images/works/cyberline.png" alt="Title" />
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio__item catalog">
+          <a href="#small-sticker" class="portfolio__content">
+            <div class="portfolio__details">
+              <span class="term">Cайт-візитка</span>
+              <h4 class="title">
+                Point-3d — <br />
+                центри томографії
+              </h4>
+              <span class="more-button"><i class="icon-options"></i></span>
+            </div>
+            <img src="images/works/sticker-min.png" alt="Portfolio-title" />
+          </a>
+          <div id="small-sticker" class="white-popup zoom-anim-dialog mfp-hide">
+            <div class="white-popup-viewer">
+              <img src="images/works/sticker.png" alt="Title" />
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio__item catalog">
+          <a href="#small-mebel" class="portfolio__content">
+            <div class="portfolio__details">
+              <span class="term">Cайт-візитка</span>
+              <h4 class="title">
+                Point-3d — <br />
+                центри томографії
+              </h4>
+              <span class="more-button"><i class="icon-options"></i></span>
+            </div>
+            <img src="images/works/mebel-min.png" alt="Portfolio-title" />
+          </a>
+          <div id="small-mebel" class="white-popup zoom-anim-dialog mfp-hide">
+            <div class="white-popup-viewer">
+              <img src="images/works/mebel.png" alt="Title" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content about">
+      <div class="content__grid"></div>
+      <div class="about__head">
+        <h2 class="section-title">Мої досягнення</h2>
+      </div>
+      <div class="about__item">
+        <!-- fact item -->
+        <div class="fact-item">
+          <span class="icon icon-fire">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill-rule="evenodd"
+              stroke-linejoin="round"
+              stroke-miterlimit="2"
+              clip-rule="evenodd"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M21 4c0-.478-.379-1-1-1H4c-.62 0-1 .519-1 1v16c0 .621.52 1 1 1h16c.478 0 1-.379 1-1zm-16.5.5h15v15h-15zM18 15.25a.75.75 0 0 0-.75-.75h-4.5a.75.75 0 0 0 0 1.5h4.5a.75.75 0 0 0 .75-.75zm-11.772-.537 1.25 1.114a.682.682 0 0 0 .959-.049l2.116-2.313a.682.682 0 0 0-.505-1.141.683.683 0 0 0-.504.221l-1.66 1.815-.746-.665a.683.683 0 0 0-.91 1.018zM18 12.002a.75.75 0 0 0-.75-.75h-4.5a.75.75 0 0 0 0 1.5h4.5a.75.75 0 0 0 .75-.75zM6.228 10.389l1.25 1.114a.682.682 0 0 0 .959-.048l2.116-2.313a.683.683 0 0 0-1.009-.921l-1.66 1.815-.746-.664a.683.683 0 0 0-.91 1.018zM18 8.75a.75.75 0 0 0-.75-.75h-4.5a.75.75 0 0 0 0 1.5h4.5a.75.75 0 0 0 .75-.75z"
+              />
+            </svg>
+          </span>
+          <div class="details">
+            <h3 class="mb-0 mt-0 number"><em class="count">130</em></h3>
+            <p class="mb-0">Завершені проекти</p>
+          </div>
+        </div>
+       
+      </div>
+
+      <div class="about__item">
+        <!-- fact item -->
+        <div class="fact-item">
+          <span class="icon icon-cup">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M4 9V7.618c.87 0 2-.697 2-1.618h12.039c0 .922 1.092 1.618 1.961 1.618V9h-1l-2 15H7L4.98 9H4zm11.793 9H8.201l.534 4h6.53l.528-4zM7 9l.534 4h8.918l.528-4H7zm3.309-3.691c2.819-2.143-.594-2.353.077-3.868-2.361 2.113.85 2.169-.077 3.868zm2.486-.001C17.031 2.07 11.918 2.241 12.9 0c-3.382 2.895 1.259 2.959-.105 5.308z"
+              />
+            </svg>
+          </span>
+          <div class="details">
+            <h3 class="mb-0 mt-0 number"><em class="count">4680</em></h3>
+            <p class="mb-0">Чашек кави</p>
+          </div>
+        </div>
         
-                <div class="row">
+      </div>
 
-                    <div class="col-md-3 col-sm-6">
-                        <!-- fact item -->
-                        <div class="fact-item">
-                            <span class="icon icon-fire"></span>
-                            <div class="details">
-                                <h3 class="mb-0 mt-0 number"><em class="count">130</em></h3>
-                                <p class="mb-0">Завершені проекти</p>
-                            </div>
-                        </div>
-                        <div class="spacer d-md-none d-lg-none" data-height="30"></div>
-                    </div>
+      <div class="about__item">
+        <!-- fact item -->
+        <div class="fact-item">
+          <span class="icon icon-people">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M10.119 16.064c2.293-.53 4.427-.994 3.394-2.946C10.366 7.177 12.678 4 16.001 4c3.388 0 5.643 3.299 2.488 9.119-1.065 1.964 1.149 2.427 3.393 2.946 1.985.458 2.118 1.428 2.118 3.107l-.003.828h-1.329c0-2.089.083-2.367-1.226-2.669-1.901-.438-3.695-.852-4.351-2.304-.239-.53-.395-1.402.226-2.543 1.372-2.532 1.719-4.726.949-6.017-.902-1.517-3.617-1.509-4.512-.022-.768 1.273-.426 3.479.936 6.05.607 1.146.447 2.016.206 2.543-.66 1.445-2.472 1.863-4.39 2.305-1.252.29-1.172.588-1.172 2.657H8.003c0-2.196-.176-3.406 2.116-3.936zM.002 20h1.329c0-1.918-.186-1.385 1.824-1.973 1.014-.295 1.91-.723 2.316-1.612.212-.463.355-1.22-.162-2.197-.952-1.798-1.219-3.374-.712-4.215.547-.909 2.27-.908 2.819.015C8.351 11.585 6.623 14 6.396 15h1.396c.44-1 1.206-2.208 1.206-3.9C8.998 9.09 7.686 8 6 8c-2.493 0-4.227 2.383-1.866 6.839.774 1.464-.826 1.812-2.545 2.209C.099 17.393 0 18.12 0 19.382L.002 20z"
+              />
+            </svg>
+          </span>
+          <div class="details">
+            <h3 class="mb-0 mt-0 number"><em class="count">73</em></h3>
+            <p class="mb-0">Задоволені клієнти</p>
+          </div>
+        </div>
+        
+      </div>
 
-                    <div class="col-md-3 col-sm-6">
-                        <!-- fact item -->
-                        <div class="fact-item">
-                            <span class="icon icon-cup"></span>
-                            <div class="details">
-                                <h3 class="mb-0 mt-0 number"><em class="count">4680</em></h3>
-                                <p class="mb-0">Чашек кави</p>
-                            </div>
-                        </div>
-                        <div class="spacer d-md-none d-lg-none" data-height="30"></div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6">
-                        <!-- fact item -->
-                        <div class="fact-item">
-                            <span class="icon icon-people"></span>
-                            <div class="details">
-                                <h3 class="mb-0 mt-0 number"><em class="count">73</em></h3>
-                                <p class="mb-0">Задоволені клієнти</p>
-                            </div>
-                        </div>
-                        <div class="spacer d-md-none d-lg-none" data-height="30"></div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6">
-                        <!-- fact item -->
-                        <div class="fact-item">
-                            <span class="icon icon-badge"></span>
-                            <div class="details">
-                                <h3 class="mb-0 mt-0 number"><em class="count">13</em></h3>
-                                <p class="mb-0">років у сфері</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-        <div class="spacer" data-height="96"></div>
-
-
-
-    </main>
-
-    <!-- Go to top button -->
-    <a href="javascript:" id="return-to-top"><i class="fas fa-arrow-up"></i></a>
-
-    <!-- SCRIPTS -->
+      <div class="about__item">
+        <!-- fact item -->
+        <div class="fact-item">
+          <span class="icon icon-badge">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M18.513 7.119A6.306 6.306 0 0 0 20 3.083V0H4v3.083c0 1.459.528 2.892 1.487 4.035l3.086 3.68c.567.677.571 1.625.009 2.306l-3.13 3.794A6.308 6.308 0 0 0 4 20.893V24h16v-3.107c0-1.44-.517-2.858-1.453-3.994l-3.13-3.794a1.782 1.782 0 0 1 .009-2.306l3.087-3.68zm-4.639 7.257 3.13 3.794c.652.792.996 1.726.996 2.83h-1.061C16.146 18.983 12 16 12 16s-4.147 2.983-4.94 5H6c0-1.104.343-2.039.996-2.829l3.129-3.793a3.803 3.803 0 0 0-.019-4.864L7.02 5.833C6.36 5.048 6 4.097 6 2.999h12c0 1.101-.363 2.05-1.02 2.834l-3.087 3.68a3.804 3.804 0 0 0-.019 4.863z"
+              />
+            </svg>
+          </span>
+          <div class="details">
+            <h3 class="mb-0 mt-0 number"><em class="count">13</em></h3>
+            <p class="mb-0">років у сфері</p>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/morphext.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="css/magnific-popup.css"
+      type="text/css"
+      media="all"
+    />
+    <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/infinite-scroll.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/contact.js"></script>
-    <script src="js/validator.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/morphext.min.js"></script>
-    <script src="js/parallax.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/custom.js"></script>
+    <script>
+      $(".text-rotating").Morphext({
+        animation: "bounceIn",
+        separator: ",",
+        speed: 4000,
+      });
+      $(".portfolio__content").magnificPopup({
+        type: "inline",
+        fixedContentPos: true,
+        fixedBgPos: true,
+        overflowY: "auto",
+        closeBtnInside: false,
+        preloader: false,
+        midClick: true,
+        removalDelay: 300,
+        mainClass: "my-mfp-zoom-in",
+      });
+      //   $('a[href*="#"]').on("click", function (event) {
+      //     event.preventDefault();
 
-</body>
+      //     $("html, body").animate(
+      //       {
+      //         scrollTop: $($(this).attr("href")).offset().top,
+      //       },
+      //       800,
+      //       "easeInOutQuad"
+      //     );
+      //   });
+      var $container = $(".portfolio__wrapper"); // Исправлен класс
+      $(".portfolio-filter").on("click", "li", function () {
+        var filterValue = $(this).attr("data-filter");
+        $container.isotope({ filter: filterValue });
+      });
 
+      // change is-checked class on buttons
+      $(".portfolio-filter").each(function (i, buttonGroup) {
+        var $buttonGroup = $(buttonGroup);
+        $buttonGroup.on("click", "li", function () {
+          $buttonGroup.find(".current").removeClass("current");
+          $(this).addClass("current");
+        });
+      });
+
+      $container.imagesLoaded(function () {
+        $container.isotope({
+          // options
+          itemSelector: ".portfolio__item",
+          percentPosition: true,
+          masonry: {
+            // use element for option
+            columnWidth: ".portfolio__item",
+          },
+        });
+      });
+      $(".count").counterUp({
+        delay: 10,
+        time: 2000,
+      });
+
+ 
+    </script>
+  </body>
 </html>
