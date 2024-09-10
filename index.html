@@ -420,8 +420,8 @@
             <div class="portfolio__details">
               <span class="term">Cайт-візитка</span>
               <h4 class="title">
-                Point-3d — <br />
-                центри томографії
+                CyberLine — <br />
+                Інтернет-маркетинг
               </h4>
               <span class="more-button"><i class="icon-options"></i></span>
             </div>
@@ -442,8 +442,8 @@
             <div class="portfolio__details">
               <span class="term">Cайт-візитка</span>
               <h4 class="title">
-                Point-3d — <br />
-                центри томографії
+                Sticker — <br />
+                Строительные смеси
               </h4>
               <span class="more-button"><i class="icon-options"></i></span>
             </div>
@@ -461,8 +461,8 @@
             <div class="portfolio__details">
               <span class="term">Cайт-візитка</span>
               <h4 class="title">
-                Point-3d — <br />
-                центри томографії
+                Brighton Mebel — <br />
+                Меблева фабрика
               </h4>
               <span class="more-button"><i class="icon-options"></i></span>
             </div>
@@ -595,18 +595,8 @@
         removalDelay: 300,
         mainClass: "my-mfp-zoom-in",
       });
-      //   $('a[href*="#"]').on("click", function (event) {
-      //     event.preventDefault();
 
-      //     $("html, body").animate(
-      //       {
-      //         scrollTop: $($(this).attr("href")).offset().top,
-      //       },
-      //       800,
-      //       "easeInOutQuad"
-      //     );
-      //   });
-      var $container = $(".portfolio__wrapper"); // Исправлен класс
+      var $container = $(".portfolio__wrapper"); 
       $(".portfolio-filter").on("click", "li", function () {
         var filterValue = $(this).attr("data-filter");
         $container.isotope({ filter: filterValue });
