@@ -17,9 +17,11 @@
   <body>
     <section class="content hero">
       <div class="video-background">
-      <video autoplay muted loop playsinline>
-        <source src="images/video.mp4?v=2" type="video/mp4">
-      </video></div>
+        <video id="myVideo" autoplay muted loop playsinline>
+          <source src="video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
       <div class="content__grid"></div>
       <div class="hero__logo">
         <svg
@@ -507,7 +509,6 @@
             <p class="mb-0">Завершені проекти</p>
           </div>
         </div>
-       
       </div>
 
       <div class="about__item">
@@ -530,7 +531,6 @@
             <p class="mb-0">Чашек кави</p>
           </div>
         </div>
-        
       </div>
 
       <div class="about__item">
@@ -548,7 +548,6 @@
             <p class="mb-0">Задоволені клієнти</p>
           </div>
         </div>
-        
       </div>
 
       <div class="about__item">
@@ -583,6 +582,7 @@
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
     <script>
+      document.getElementById('myVideo').play();
       $(".text-rotating").Morphext({
         animation: "bounceIn",
         separator: ",",
@@ -600,7 +600,7 @@
         mainClass: "my-mfp-zoom-in",
       });
 
-      var $container = $(".portfolio__wrapper"); 
+      var $container = $(".portfolio__wrapper");
       $(".portfolio-filter").on("click", "li", function () {
         var filterValue = $(this).attr("data-filter");
         $container.isotope({ filter: filterValue });
@@ -630,8 +630,6 @@
         delay: 10,
         time: 2000,
       });
-
- 
     </script>
   </body>
 </html>
