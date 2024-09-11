@@ -279,6 +279,7 @@ body {
     width: 100%;
     display: block;
     position: relative;
+    text-align: left;
 }
 
 .white-popup-viewer {
