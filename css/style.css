@@ -211,6 +211,8 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
+    padding-left: 0!important;
+    padding-right: 0!important;
 }
 
 .portfolio__head {
@@ -647,11 +649,15 @@ body {
   font-size: 16px;
 }
 .video-background {
-  position: relative;
-  width: 100%;
-  height: 100vh; /* Высота 100% от окна браузера */
+  
+   /* Высота 100% от окна браузера */
   overflow: hidden;
   position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 1px;
+  right: 1px;
+  bottom: 0;
 }
 
 /* Стили для самого видео */
